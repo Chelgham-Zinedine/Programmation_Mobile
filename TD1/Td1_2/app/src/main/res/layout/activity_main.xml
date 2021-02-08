@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/red_button"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="40dp"
+            android:backgroundTint="@color/red"
+            android:text="@string/red"
+            android:textColor="@color/black"
+
+
+            />
+
+        <Button
+            android:id="@+id/orange_button"
+            android:layout_width="130dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/orange"
+            android:text="@string/orange"
+            android:textColor="@color/black"
+
+            />
+
+        <Button
+            android:id="@+id/yellow_button"
+            android:layout_width="130dp"
+            android:layout_height="75dp"
+            android:backgroundTint="@color/yellow"
+            android:text="@string/yellow"
+            android:textColor="@color/black"
+
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/green_button"
+            android:layout_width="115dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/green"
+            android:text="@string/green"
+            android:textColor="@color/black"
+
+
+            />
+
+        <Button
+            android:id="@+id/blue_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="10dp"
+            android:layout_toEndOf="@id/red_button"
+            android:backgroundTint="@color/blue"
+            android:text="@string/blue"
+
+
+            />
+
+        <Button
+            android:id="@+id/purple_button"
+            android:layout_width="115dp"
+            android:layout_height="75dp"
+            android:layout_toEndOf="@id/red_button"
+            android:backgroundTint="@color/purple_500"
+            android:text="@string/indigo"
+
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/last_violet_button"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/purple_200"
+            android:text="@string/violet"
+            android:textColor="@color/black"
+
+
+
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

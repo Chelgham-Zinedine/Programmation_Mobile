@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_weight="1"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:gravity="center_vertical|center_horizontal|center">
+
+    <Button
+        android:id="@+id/button_fondu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fondu"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/button_retrecissement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/retrecissement"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/button_sortie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sortie"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/button_fondu_Agrandissement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fondu_angrandissement"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/button_tvOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvoff"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/button_respawn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/respawn"
+        android:layout_marginBottom="30dp"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

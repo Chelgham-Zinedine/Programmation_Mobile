@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="starwarsList">
+        <item>Amidala</item>
+        <item>Blue</item>
+        <item>C3po</item>
+        <item>Calrissian</item>
+        <item>Chewbacca</item>
+        <item>Daragon</item>
+        <item>Dodonna</item>
+    </string-array>
+</resources>

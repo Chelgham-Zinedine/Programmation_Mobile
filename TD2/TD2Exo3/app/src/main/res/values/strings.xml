@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TD2Exo3</string>
+    <string name="fondu">Fondu</string>
+    <string name="retrecissement">retrecissement</string>
+    <string name="sortie">Sortie</string>
+    <string name="fondu_angrandissement">Fondu + Angrandissement</string>
+    <string name="tvoff">tvOff</string>
+    <string name="respawn">respawn</string>
+</resources>

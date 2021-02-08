@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Td1_1</string>
+    <string name="info">Saisir un texte</string>
+    <string name="b_info">APPUYER ICI</string>
+</resources>
