@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LL_Fond"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="20dp">
+
+    <ImageView
+        android:id="@+id/pizza_img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/pizza_image" />
+
+    <TextView
+        android:id="@+id/TV_pizza_info"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="">
+
+    </TextView>
+
+</LinearLayout>
